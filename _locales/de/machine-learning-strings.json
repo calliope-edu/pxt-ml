@@ -1,0 +1,12 @@
+{
+  "ml.event.Unknown|block": "unbekannt",
+  "ml.getCertainty|block": "Gewissheit (\\%) KI $event",
+  "ml.isDetected|block": "Erkannt KI $event",
+  "ml.onStart|block": "zu Beginn von KI $event",
+  "ml.onStopDetailed|block": "eine KI-Bewegung $event $duration (ms)",
+  "ml.onStop|block": "eine ML-Bewegung $event ",
+  "ml|block": "Maschinelles Lernen",
+  "{id:category}Ml": "Ml",
+  "{id:category}MlEvent": "MlEvent",
+  "{id:group}micro:bit (V2)": "Calliope mini 3"
+}

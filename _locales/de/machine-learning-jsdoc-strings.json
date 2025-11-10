@@ -1,0 +1,15 @@
+{
+  "ml.getCertainty": "Erhalte die Wahrscheinlichkeit eines ML-Ereignisses als Prozentsatz (von 0 bis 100).",
+  "ml.getCertainty|param|event": "eine der Aktionen, mit denen das maschinelle Lernmodell trainiert wurde",
+  "ml.isDetected": "Überprüfe, ob derzeit ein KI-Ereignis erkannt wird.",
+  "ml.isDetected|param|event": "eine der Aktionen, mit denen das maschinelle Lernmodell trainiert wurde",
+  "ml.onStart": "Führe eine Aktion aus, wenn ein ML-Ereignis erkannt wird.",
+  "ml.onStart|param|body": "auszuführendes Programm",
+  "ml.onStart|param|event": "eine der Aktionen, mit denen das maschinelle Lernmodell trainiert wurde",
+  "ml.onStop": "Ergreife Maßnahmen, wenn kein KI-Ereignis mehr erkannt wird.",
+  "ml.onStopDetailed": "Ergreife Maßnahmen, wenn kein KI-Ereignis mehr erkannt wird.",
+  "ml.onStopDetailed|param|body": "auszuführendes Programm",
+  "ml.onStopDetailed|param|event": "eine der Aktionen, mit denen das maschinelle Lernmodell trainiert wurde",
+  "ml.onStop|param|body": "auszuführendes Programm",
+  "ml.onStop|param|event": "eine der Aktionen, mit denen das maschinelle Lernmodell trainiert wurde"
+}
