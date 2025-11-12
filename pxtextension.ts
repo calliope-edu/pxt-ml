@@ -58,9 +58,10 @@ namespace ml {
    */
   //% blockId=ml_on_event_start
   //% block="on ML $event start"
+  //% block.loc.de="wenn ML $event gestartet"
   //% weight=50
   //% parts="v2"
-  //% group="micro:bit (V2)"
+  //% group="Calliope mini V3"
   //% help=github:machine-learning/docs/ml_on_event_start
   export function onStart(event: MlEvent, body: () => void): void {
     event.onStartHandler = body;
@@ -89,9 +90,10 @@ namespace ml {
    */
   //% blockId=ml_on_event_stop
   //% block="on ML $event stop"
+  //% block.loc.de="wenn ML $event gestoppt"
   //% weight=40
   //% parts="v2"
-  //% group="micro:bit (V2)"
+  //% group="Calliope mini V3"
   //% help=github:machine-learning/docs/ml_on_event_stop
   export function onStop(event: MlEvent, body: () => void): void {
     if (!isRunning()) {
@@ -107,10 +109,11 @@ namespace ml {
    */
   //% blockId=ml_on_event_stop_detailed
   //% block="on ML $event stop $duration (ms)"
+  //% block.loc.de="wenn ML $event gestoppt $Dauer (ms)"
   //% weight=30
   //% draggableParameters="reporter"
   //% parts="v2"
-  //% group="micro:bit (V2)"
+  //% group="Calliope mini V3"
   //% help=github:machine-learning/docs/ml_on_event_stop_detailed
   export function onStopDetailed(
     event: MlEvent,
@@ -128,9 +131,10 @@ namespace ml {
    */
   //% blockId=ml_is_event_detected
   //% block="is ML $event detected"
+  //% block.loc.de="wird ML $event erkannt"
   //% weight=20
   //% parts="v2"
-  //% group="micro:bit (V2)"
+  //% group="Calliope mini V3"
   //% help=github:machine-learning/docs/ml_is_event_detected
   export function isDetected(event: MlEvent): boolean {
     if (!isRunning()) {
@@ -146,6 +150,7 @@ namespace ml {
    */
   //% blockId=ml_on_event_certainty
   //% block="certainty (\\%) ML $event"
+  //% block.loc.de="Wahrscheinlichkeit (\\%) ML $event"
   //% weight=10
   //% parts="v2"
   //% help=github:machine-learning/docs/ml_get_event_certainty
